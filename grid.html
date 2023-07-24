@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(214,189,180);
+        }
+        .grid{
+            display: grid;
+            grid-template-areas:
+            "h h h h h h "
+            "m1 m2 m3 m4 m5 m6"
+            "f f f f f f  "
+            ;
+        }
+        .grid div{
+            display: grid;
+            border: 1px solid black;
+            background-color: rgb(236, 172, 172);
+            font-size: 2rem;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+        }
+        .header{
+            grid-area: h;
+            justify-content:center;
+            
+        }
+        .main1{
+            grid-area: m1;
+            padding: auto;
+           
+        }
+        .main2{
+            grid-area: m2;
+            padding: auto;
+           
+        }
+        
+        .main3{
+            grid-area: m3;
+            padding: auto;
+          
+        }.main4 {
+            grid-area: m4;
+            padding: auto;
+        }.main5{
+            grid-area: m5;
+            padding: auto;
+        }.main6{
+            grid-area: m6;
+            padding: auto;
+        }
+        .footer{
+            grid-area: f;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="header">
+            <h3>OOPS Concept</h3>
+        </div>
+        <div class="main1">
+            <dl>
+                <dt>OBJECT</dt>
+                <dd>Any entity that has state and behavior is known as an object. For example, a chair, pen, table, keyboard, bike, etc. It can be physical or logical.
+
+                    An Object can be defined as an instance of a class. An object contains an address and takes up some space in memory. Objects can communicate without knowing the details of each other's data or code. The only necessary thing is the type of message accepted and the type of response returned by the objects.</dd>
+
+            </dl>
+        </div>
+        <div class="main2">
+            <dl>
+                <dt>CLASS</dt>
+                <dd>Collection of objects is called class. It is a logical entity.
+
+                    A class can also be defined as a blueprint from which you can create an individual object. Class doesn't consume any space.</dd>
+            </dl>
+        </div>
+        <div class="main3">
+            <dl>
+                <dt>INHERITANCE</dt>
+                <dd>When one object acquires all the properties and behaviors of a parent object, it is known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism.</dd>
+            </dl>
+        </div>
+        <div class="main4"> 
+            <dl>
+                <dt>POLYMORPHISM</dt>
+                <dd>If one task is performed in different ways, it is known as polymorphism. For example: to convince the customer differently, to draw something, for example, shape, triangle, rectangle, etc.
+
+                    In Java, we use method overloading and method overriding to achieve polymorphism.
+                    
+                    Another example can be to speak something; for example, a cat speaks meow, dog barks woof, etc.</dd>
+            </dl>
+        </div>
+        <div class="main5">
+            <dl>
+                <dt>ABSTRACTION</dt>
+                <dd>Hiding internal details and showing functionality is known as abstraction. For example phone call, we don't know the internal processing.</dd>
+            </dl>
+        </div>
+        <div class="main6">
+            <dl>
+                <dt>ENCAPSULATION</dt>
+                <dd>Binding (or wrapping) code and data together into a single unit are known as encapsulation. For example, a capsule, it is wrapped with different medicines.
+
+                    A java class is the example of encapsulation. Java bean is the fully encapsulated class because all the data members are private here.</dd>
+            </dl>
+        </div>
+        <div class="footer">
+           For more details visit:</details> <a href="https://www.bing.com/ck/a?!&&p=bc544e94c43702faJmltdHM9MTY5MDA3MDQwMCZpZ3VpZD0xYzJhYWY4MS03NDNmLTZiNTItM2QyYi1iZDE3NzU5MjZhMGQmaW5zaWQ9NTIyNA&ptn=3&hsh=3&fclid=1c2aaf81-743f-6b52-3d2b-bd1775926a0d&psq=oops+in+java&u=a1aHR0cHM6Ly93d3cuamF2YXRwb2ludC5jb20vamF2YS1vb3BzLWNvbmNlcHRz&ntb=1">OopsConcept</a>
+        </div>
+    </div>
+</body>
+</html>
